@@ -23,6 +23,14 @@
 
 @media (min-width: 768px) {
     .container {
+        padding-top: 130px;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }

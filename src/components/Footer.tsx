@@ -11,8 +11,8 @@ export default function Footer() {
                             <Image
                                 src="/logo-final.png"
                                 alt="Vidraçaria Criativa - Logomarca Rodapé"
-                                width={32}
-                                height={32}
+                                width={54}
+                                height={54}
                                 className={styles.footerLogo}
                             />
                             <h3 className={styles.title}>Vidraçaria Criativa</h3>

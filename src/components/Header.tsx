@@ -19,8 +19,9 @@ export default function Header() {
                             <Image
                                 src="/logo-final.png"
                                 alt="Vidraçaria Criativa Logo"
-                                width={45}
-                                height={45}
+                                width={100}
+                                height={100}
+                                className={styles.logoImage}
                                 style={{ objectFit: 'contain' }}
                                 priority
                             />

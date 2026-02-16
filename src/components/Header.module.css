@@ -16,12 +16,39 @@
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: 130px;
+    }
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    letter-spacing: -0.5px;
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        font-size: 1.85rem;
+    }
+}
+
+.logoImage {
+    height: 60px;
+    width: auto;
+    transition: height 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .logoImage {
+        height: 100px;
+    }
 }
 
 .desktopNav {
