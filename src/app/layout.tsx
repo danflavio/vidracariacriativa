@@ -19,11 +19,31 @@ export const metadata: Metadata = {
     description: "Sua vidraçaria de confiança em Anápolis. Instalamos box, sacadas, espelhos e esquadrias com acabamento premium.",
     url: "https://www.vidracariacriativa.com.br",
     siteName: "Vidraçaria Criativa",
+    images: [
+      {
+        url: "/logo-final.png",
+        width: 1200,
+        height: 630,
+        alt: "Vidraçaria Criativa - Logo",
+      },
+    ],
     locale: "pt_BR",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Vidraçaria Criativa",
+    description: "Vidros e Esquadrias em Anápolis e Região",
+    images: ["/logo-final.png"],
+  },
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/favicon.png" },
+    ],
   },
 };
 
