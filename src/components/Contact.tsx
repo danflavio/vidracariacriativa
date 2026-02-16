@@ -8,15 +8,6 @@ export default function Contact() {
     return (
         <section id="contact" className={styles.section}>
             <div className={styles.container}>
-                <motion.h2
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    className={styles.title}
-                >
-                    Solicite seu <span className={styles.subtitle}>Orçamento</span>
-                </motion.h2>
-
                 <div className={styles.grid}>
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
@@ -72,6 +63,16 @@ export default function Contact() {
                         viewport={{ once: true }}
                         className={styles.formCard}
                     >
+                        <motion.h2
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className={styles.title}
+                            style={{ marginBottom: '2rem' }}
+                        >
+                            Solicite seu <span className={styles.subtitle}>Orçamento</span>
+                        </motion.h2>
+
                         <form>
                             <div className={styles.formGroup}>
                                 <label htmlFor="name" className={styles.label}>Nome Completo</label>
